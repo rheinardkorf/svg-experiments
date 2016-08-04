@@ -1,3 +1,7 @@
+/**
+ * Using Object.assign while expetimenting until I decide to bring babel into these experiments.
+ * But, just incase Object.assign is not available, create it.
+ */
 var Object = Object || {};
 
 if (typeof Object.assign != 'function') {
